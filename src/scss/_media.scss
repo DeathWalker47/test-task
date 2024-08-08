@@ -1,0 +1,582 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  .buffbeer-slide--big {
+    width: 454px;
+  }
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 960px) {
+  .hero::before {
+    display: none;
+  }
+  .logo {
+    margin-left: 20px;
+  }
+  .container {
+    padding: 0 40px;
+  }
+
+  .hero__content {
+    padding-top: 137px;
+  }
+  .hero__title {
+    margin-bottom: 26px;
+  }
+
+  //about
+  .about {
+    padding-top: 66px;
+  }
+  .about__inner {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 75px;
+  }
+  .about__video {
+    max-width: 405px;
+    height: 271px;
+    margin-top: 74px;
+  }
+  .about__video::before {
+    top: -27px;
+    left: -40px;
+  }
+  .about__content {
+    padding-left: 8px;
+  }
+  .about-quote {
+    padding: 96px 41px;
+  }
+  .about-quote::before {
+    bottom: 3px;
+    right: -300px;
+  }
+
+  //mission
+  .mission__title {
+    margin-left: 25px;
+    margin-bottom: 33px;
+  }
+  .mission {
+    padding: 85px 20px 103px;
+  }
+  .mission__text {
+    max-width: 597px;
+    padding-left: 13px;
+    margin-bottom: 37px;
+  }
+  .mission__link {
+    margin-left: 21px;
+  }
+  .mission__title::after,
+  .mission__title::before {
+    top: 47%;
+    height: 3px;
+  }
+
+  //advantages
+  .advantages {
+    padding: 79px 0 79px;
+  }
+  .advantages__title {
+    margin-bottom: 32px;
+  }
+  .advantages__slider {
+    column-gap: 36px;
+    row-gap: 21px;
+  }
+
+  .advantages__list-item {
+    max-width: 260px;
+  }
+  .list-item__subtitle {
+    height: 131px;
+    padding: 22px 15px 12px 20px;
+  }
+
+  //buffbeer
+  .buffbeer::before {
+    top: -4px;
+    right: -110px;
+  }
+  .buffbeer::after {
+    left: -20px;
+    bottom: 48px;
+  }
+  .buffbeer__descr {
+    margin-bottom: 32px;
+  }
+  .buffbeer .container {
+    padding-right: 20px;
+  }
+
+  .swiper-slide:nth-child(4) {
+    .buffbeer-slide--big {
+      width: 396px;
+    }
+  }
+  .buffbeer-slide--num .buffbeer-slide__info {
+    padding: 18px 40px 36px;
+  }
+}
+@media (max-width: 840px) {
+  .list-item__info-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: var(--white);
+  }
+  .buffbeer-wrapper .swiper-slide:nth-child(4) {
+    margin-right: 0px;
+  }
+  .advantages .swiper-slide {
+    grid-column: 6 span;
+  }
+  .advantages__list-item {
+    width: 100%;
+  }
+  .advantages__slider {
+    column-gap: 25px;
+  }
+  .buffbeer-slide--big,
+  .buffbeer-slide--small {
+    width: 260px;
+    height: 294px;
+  }
+  .swiper-slide:nth-child(4) .buffbeer-slide--big {
+    width: 260px;
+    height: 294px;
+  }
+  .buffbeer-slide__info {
+    padding: 16px 30px;
+  }
+  .buffbeer-wrapper .swiper-slide:nth-child(3) {
+    margin-left: 0;
+  }
+  .buffbeer-wrapper {
+    justify-content: center;
+    gap: 25px;
+  }
+  .mission {
+    padding: 85px 20px 77px;
+  }
+}
+@media (max-width: 768px) {
+  .mission__title {
+    font-size: 36px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: flex;
+  }
+  .buffbeer .container {
+    padding-right: 40px;
+  }
+
+  .buffbeer {
+    padding: 40px 0 15px 20px;
+  }
+  .buffbeer .swiper-slide {
+    width: none !important;
+  }
+  .buffbeer-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    flex-wrap: nowrap;
+  }
+  .buffbeer-slide {
+    width: 100%;
+  }
+  .advantages {
+    position: relative;
+    padding: 40px 0px 15px 20px;
+  }
+  .advantages__slider {
+    position: relative;
+    display: flex;
+    gap: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .mission__title::after {
+    right: -24px;
+    width: 15px;
+    height: 2px;
+  }
+  .mission__title::before {
+    left: -9px;
+    height: 2px;
+    width: 15px;
+  }
+  .swiper-pagination {
+    opacity: 1;
+  }
+  .buffbeer::before {
+    top: 73%;
+    right: -78px;
+    transform: scale(0.7);
+  }
+  .buffbeer::after {
+    display: none;
+  }
+  .buffbeer-slider-pagination {
+    bottom: 77px !important;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4px;
+  }
+  .buffbeer {
+    padding: 0 0 74px 20px;
+  }
+  .buffbeer .container {
+    padding-right: 20px;
+    padding: 20px 0;
+  }
+  .buffbeer-slide {
+    width: 260px;
+  }
+  .about__content {
+    max-width: 567px;
+    width: 100%;
+  }
+  .hero {
+    height: 314px;
+    top: 0;
+  }
+  .logo {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    padding: 32px 11px;
+    margin-left: 0;
+    width: 166px;
+    height: 60px;
+    top: 0;
+  }
+  .hero__content {
+    padding-top: 99px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__title {
+    font-size: 36px;
+    line-height: 111%;
+    margin-bottom: 20px;
+  }
+  .hero__descr {
+    max-width: 350px;
+    font-size: 16px;
+  }
+
+  .about__inner {
+    flex-direction: column-reverse;
+  }
+  .about {
+    padding-top: 34px;
+  }
+  .about__content {
+    padding-left: 0;
+  }
+  .about__title {
+    font-size: 9px;
+    margin-bottom: 12px;
+  }
+  .about__title-num {
+    font-size: 40px;
+    margin-bottom: 7px;
+  }
+  .about__text {
+    font-size: 14px;
+    line-height: 155%;
+  }
+  .about__text:not(:last-child) {
+    margin-bottom: 6px;
+  }
+  .container {
+    padding: 20px;
+  }
+  .about__inner {
+    gap: 0;
+  }
+  .about__video {
+    max-width: 540px;
+    height: 360px;
+    margin-top: 88px;
+    margin-left: 29px;
+  }
+  .about__video::before {
+    top: -42px;
+    width: 96%;
+    height: 106%;
+    left: -29px;
+  }
+  .about__inner {
+    margin-bottom: 41px;
+  }
+  .about-quote {
+    height: 105px;
+  }
+  .about-quote {
+    padding: 32px 13px;
+  }
+  .about-quote__text {
+    padding-left: 55px;
+    font-size: 16px;
+    line-height: 123%;
+    background-size: 23px 41px;
+    background-position: 1% 0;
+  }
+  .about-quote::before {
+    bottom: 0;
+    right: 0;
+    background-image: url("../img/quote-decor-mob.svg");
+    width: 179px;
+    height: 97px;
+  }
+  .mission {
+    padding: 31px 20px 35px;
+  }
+  .mission__title {
+    margin-left: 0;
+    margin-bottom: 19px;
+    font-size: 30px;
+  }
+  .mission__text {
+    max-width: 398px;
+    padding-left: 0px;
+    margin-bottom: 13px;
+    font-size: 16px;
+  }
+  .mission__link {
+    margin-left: 0;
+    width: 171px;
+    padding: 13px 17px;
+    font-size: 14px;
+  }
+  .advantages {
+    .container {
+      padding: 20px 0;
+    }
+    .swiper-slide {
+    }
+  }
+  .advantages__title {
+    font-size: 20px;
+    margin-bottom: 22px;
+    // padding-left: 20px;
+  }
+  .advantages__list-item {
+    width: 260px;
+  }
+  .list-item__subtitle {
+    max-height: 72px;
+  }
+  .list-item__subtitle-text {
+    font-size: 14px;
+  }
+
+  .advantages__list {
+    padding-bottom: 27px;
+    // padding-left: 20px;
+    .swiper-pagination {
+      bottom: 8px;
+      display: flex;
+      justify-content: center;
+      gap: 4px;
+      width: 100%;
+    }
+  }
+  .buffbeer-slider {
+    padding-bottom: 0;
+  }
+  .advantages__slider {
+    display: flex;
+    row-gap: 0;
+    column-gap: 0;
+  }
+  .buffbeer__title {
+    margin-bottom: 14px;
+    font-size: 18px;
+  }
+  .buffbeer__descr {
+    font-size: 16px;
+  }
+  .buffbeer__descr {
+    margin-bottom: 45px;
+  }
+  .buffbeer-wrapper {
+    justify-content: start;
+    gap: 0;
+  }
+}
+@media (max-width: 610px) {
+  .advantages {
+    position: relative;
+    padding: 40px 20px 15px 20px;
+  }
+  .buffbeer {
+    padding: 0px 20px 15px;
+  }
+  .advantages__list-item {
+    max-width: 100%;
+    width: 100%;
+  }
+  .buffbeer-slide {
+    width: 100%;
+  }
+  .list-item__img img {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding: 15px;
+  }
+  .hero {
+    height: 352px;
+  }
+  .logo {
+    top: 0;
+    left: 51%;
+  }
+  .hero__title {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+  .hero__content {
+    padding-top: 103px;
+  }
+  .hero__descr {
+    line-height: 131%;
+  }
+  .about {
+    padding-top: 31px;
+  }
+  .about__title {
+    margin-bottom: 24px;
+  }
+  .about__text {
+    font-size: 13px;
+    line-height: 152%;
+  }
+  .about__text:not(:last-child) {
+    margin-bottom: 12px;
+  }
+  .about__video {
+    max-width: 260px;
+    height: 174px;
+    margin-left: 0;
+    margin-top: 70px;
+  }
+  .about__video::before {
+    top: -21px;
+    width: 96%;
+    height: 106%;
+    left: -11px;
+  }
+  .about__inner {
+    margin-bottom: 34px;
+  }
+  .about-quote {
+    height: 144px;
+    padding: 33px 13px;
+  }
+  .about-quote__text {
+    padding-left: 34px;
+    font-size: 16px;
+    line-height: 124%;
+    background-size: 23px 41px;
+    background-position: 2% -4px;
+  }
+  .about-quote::before {
+    bottom: -30px;
+    right: -61px;
+    background-image: url("../img/quote-decor-mob.svg");
+    width: 179px;
+    height: 97px;
+  }
+  .mission {
+    padding: 20px 20px 45px;
+  }
+  .mission__title {
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .mission__text {
+    margin-bottom: 31px;
+  }
+  .mission__link {
+    width: 190px;
+    padding: 10px 10px;
+    font-size: 18px;
+  }
+  .advantages {
+    // padding: 36px 0;
+  }
+}
+@media (max-width: 320px) {
+  .advantages {
+    padding: 30px 20px 15px;
+  }
+  .buffbeer-slider-pagination {
+    bottom: auto !important;
+    top: 0;
+    display: flex;
+    gap: 4px;
+    top: -3px;
+    left: 15px !important;
+    justify-content: flex-start;
+  }
+  .advantages__list-pagination {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+  }
+  .advantages__list .swiper-pagination {
+    bottom: 7px;
+  }
+  .buffbeer__descr {
+    line-height: 159%;
+    margin-bottom: 3px;
+  }
+  .buffbeer-slider-next,
+  .swiper-button-prev {
+    top: 52%;
+  }
+  .buffbeer-slide__info {
+    padding: 16px 8px;
+  }
+  .buffbeer-slide__text {
+    text-align: left;
+  }
+  .list-item__subtitle {
+    padding: 22px 9px 26px 20px;
+    max-height: 58px;
+  }
+  .buffbeer {
+    padding: 0 20px 36px;
+  }
+  .buffbeer::before {
+    top: 68%;
+    right: -120px;
+  }
+}
